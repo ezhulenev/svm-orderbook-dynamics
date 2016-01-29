@@ -26,4 +26,4 @@ The application fat jars will be placed in:
 
 First you need to run `assembly` in sbt and then run java cmd
 
-    java -Dspark.master=spark://spark-host:7777 order-book-dynamics.jar
+    java -Dspark.master=spark://spark-host:7777 -jar order-book-dynamics.jar
